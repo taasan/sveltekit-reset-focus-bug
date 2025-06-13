@@ -1,6 +1,6 @@
 # SvelteKit reset_focus Bug Reproduction
 
-This repository demonstrates a bug in SvelteKit where the `reset_focus` function crashes when the URL contains a hash fragment that is not a valid CSS selector.
+This repository demonstrates a [bug](https://github.com/sveltejs/kit/issues/13883) in SvelteKit where the `reset_focus` function crashes when the URL contains a hash fragment that is not a valid CSS selector.
 
 ## Bug Description
 
